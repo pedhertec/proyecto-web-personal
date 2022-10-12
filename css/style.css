@@ -744,12 +744,27 @@ h2 {
 .imgContacto div {
     margin-left: 30px;
 }
-
-.formContacto {
+.mainFormContacto{
     display: flex;
-    width: 300px;
-    margin: 30px auto 30px auto;
+    justify-content: center;
+    min-height: calc(100vh - (96px + 74px));
+    align-items: center;
 }
+.formContacto {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cvFieldset{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 @media screen and (max-width:768px){
 

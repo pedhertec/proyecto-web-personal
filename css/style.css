@@ -26,8 +26,9 @@ header {
 .navBar {
     display: flex;
     justify-content: right;
-    margin-right: 30px;
+/*     margin-right: 30px; */
 }
+
 
 .navBar li {
     list-style: none;
@@ -198,10 +199,6 @@ main {
     .logoBar {
         margin-left: 20px;
     }
-
-    h2{
-        font-size: 3vw;
-    }
 }
 
 /*celular */
@@ -250,11 +247,6 @@ main {
         transform: scale(0.8);
         margin-left: 5px;
     }
-
-    h2{
-        font-size: 2.5vw;
-    }
-
 }
 
 /* FOOTER ********************************************************************/
@@ -281,14 +273,28 @@ h2 {
 .redesBar {
     display: flex;
     justify-content: space-around;
+    padding: 0;
+    margin: 0 20px 0 0;
 }
 
 .redesBar li {
     list-style: none;
 }
 
+.contactBar{
+    margin-bottom: 0px;
+    padding: 0;
+}
+.adressBar{
+    display: flex;
+    margin-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-@media screen and (max-width:768px){
+/* comento el media query porque me paso a bootstrap ********************************/
+
+/* @media screen and (max-width:768px){ 
     .contactBar li{
         font-size: 2vw;
     }
@@ -313,7 +319,7 @@ h2 {
     .contactBarCopy{
         font-size: 2vw;
     }
-}
+} */
 
 /* CURRICULUM.html ********************************************************************/   
 
@@ -745,24 +751,34 @@ h2 {
     margin-left: 30px;
 }
 .mainFormContacto{
-    display: flex;
-    justify-content: center;
-    min-height: calc(100vh - (96px + 74px));
-    align-items: center;
+    min-height: calc(100vh - (96px + 107px));
 }
 .formContacto {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.cvFieldset{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
+h2{
+    font-size: 1.3vw;
+    margin-bottom: 0px;
+}
+
+input:focus::placeholder{
+    color: white;
+}
+.btn{
+    width: 40%;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1400px){
+
+        h2{
+        font-size: 1.8vw;
+    }
+    .contactBar{
+        font-size: 1.5 vw;
+    }
 }
 
 
@@ -772,11 +788,23 @@ h2 {
         height: 130px;
         font-size: 35px;
     }
+    h2{
+        font-size: 2.8vw;
+    }
+    .contactBar{
+        font-size: 1.5vw;
+    }
 }
 @media screen and (max-width:576px){
 
     .imgContacto{
         height: 100px;
         font-size: 25px;
+    }
+        h2{
+        font-size: 3vw;
+    }
+    .contactBar{
+        font-size: 2vw;
     }
 }

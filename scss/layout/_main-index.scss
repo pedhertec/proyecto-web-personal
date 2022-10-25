@@ -1,0 +1,119 @@
+main {
+    font-family: 'Roboto Mono', monospace;
+    min-height: calc(100vh - (92px + 74px));
+}
+
+.imagenMacbook {
+    display: flex;
+    background-image: url("../assets/img/imgMacbook.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 310px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    -webkit-animation: swingimagenMacbook 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    animation: swingimagenMacbook 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.imagenMacbookTexto {
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 5px black;
+    -webkit-animation: imagenMacbookTexto 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: imagenMacbookTexto 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes swingimagenMacbook {
+    0% {
+        -webkit-transform: rotateX(-100deg);
+        transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+@keyframes swingimagenMacbook {
+    0% {
+        -webkit-transform: rotateX(-100deg);
+        transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes imagenMacbookTexto {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes imagenMacbookTexto {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.contenedoresDeTexto {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.contenedorDeTexto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 800ms;
+    }
+}
+
+.textoCentrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 400px;
+}

@@ -1,0 +1,86 @@
+/***************************
+index tablet 
+****************************/
+
+@media screen and (max-width: 768px) {
+    .contenedoresDeTexto {
+        display: grid;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .imagenMacbook {
+        display: flex;
+        background-position: bottom;
+        background-image: url("../assets/img/imgMacbook768.svg");
+        width: 100vw;
+        height: 167px;
+        font-size: 35px;
+    }
+
+    .navBar li {
+        font-size: 2.5vw;
+    }
+
+    .logoBar {
+        margin-left: 20px;
+    }
+
+/***************************
+footer tablet 
+****************************/
+
+h2 {
+    font-size: 2.8vw;
+}
+
+.contactBar {
+    font-size: 1.5vw;
+}
+
+/***************************
+curriculum tablet 
+****************************/
+
+.imagenCurriculum {
+    height: 130px;
+    font-size: 35px;
+}
+
+.fotoPerfil {
+    content: url(../assets/img/fotoPerfilTablet.png);
+    height: 100%;
+}
+
+.infoSobreMi {
+    font-size: 14px;
+}
+
+/***************************
+contacto tablet 
+****************************/
+
+.imgContacto {
+    @include img-tablet;
+}
+
+/***************************
+web tablet 
+****************************/
+
+.imgWebDesign {
+    @include img-tablet;
+}
+
+/***************************
+graphic tablet 
+****************************/
+
+.imgGraphicDesign {
+    @include img-tablet;
+}
+
+}
+
+
+

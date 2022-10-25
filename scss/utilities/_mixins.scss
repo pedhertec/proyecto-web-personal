@@ -1,0 +1,9 @@
+@mixin img-mobile {
+    height: 100px;
+    font-size: 25px;
+}
+
+@mixin img-tablet {
+    height: 130px;
+    font-size: 35px;
+}

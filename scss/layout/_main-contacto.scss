@@ -1,0 +1,72 @@
+.imgContacto {
+    display: flex;
+    background-image: url(../assets/img/bannerContacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 178px;
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    -webkit-animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+    div {
+        margin-left: 30px;
+    }
+}
+
+@-webkit-keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+.mainFormContacto {
+    min-height: calc(100vh - (96px + 107px));
+}
+
+.formContacto {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+.btn {
+    width: 40%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    h2 {
+        font-size: 1.8vw;
+    }
+
+    .contactBar {
+        font-size: 1.5 vw;
+    }
+}

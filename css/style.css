@@ -434,70 +434,6 @@ h2 {
   align-items: flex-start; }
 
 /***************************
-index mobile 
-****************************/
-@media screen and (max-width: 576px) {
-  .contenedoresDeTexto {
-    display: grid;
-    justify-self: center;
-    align-self: center;
-    transform: scale(0.8); }
-  .imagenMacbook {
-    display: flex;
-    background-position: bottom;
-    background-image: url("../assets/img/imgMacbook768.svg");
-    width: 100vw;
-    height: 167px;
-    font-size: 35px; }
-  .navBar li {
-    list-style: none;
-    display: inline;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 3vw; }
-    .navBar li a {
-      text-decoration: none;
-      color: black;
-      margin-left: 10px;
-      margin-right: 10px;
-      word-spacing: 1px; }
-  .logoBar {
-    transform: scale(0.8);
-    margin-left: 5px; }
-  /***************************
-footer mobile 
-****************************/
-  h2 {
-    font-size: 3vw; }
-  .contactBar {
-    font-size: 2vw; }
-  /***************************
-curriculum mobile 
-****************************/
-  .imagenCurriculum {
-    height: 100px;
-    font-size: 25px; }
-  .fotoPerfil {
-    content: url(../assets/img/fotoPerfilMobile.png);
-    height: 100%; }
-  .infoSobreMi {
-    font-size: 12px; }
-  .imgContacto {
-    height: 100px;
-    font-size: 25px; }
-  /***************************
-web tablet 
-****************************/
-  .imgWebDesign {
-    height: 100px;
-    font-size: 25px; }
-  /***************************
-graphic tablet 
-****************************/
-  .imgGraphicDesign {
-    height: 100px;
-    font-size: 25px; } }
-
-/***************************
 index tablet 
 ****************************/
 @media screen and (max-width: 768px) {
@@ -552,3 +488,70 @@ graphic tablet
   .imgGraphicDesign {
     height: 130px;
     font-size: 35px; } }
+
+/***************************
+index mobile 
+****************************/
+@media screen and (max-width: 576px) {
+  .contenedoresDeTexto {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    transform: scale(0.8); }
+  .imagenMacbook {
+    display: flex;
+    background-position: bottom;
+    background-image: url("../assets/img/imgMacbook768.svg");
+    width: 100vw;
+    height: 167px;
+    font-size: 35px; }
+  .navBar li {
+    list-style: none;
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3vw; }
+    .navBar li a {
+      text-decoration: none;
+      color: black;
+      margin-left: 10px;
+      margin-right: 10px;
+      word-spacing: 1px; }
+  .logoBar {
+    transform: scale(0.8);
+    margin-left: 5px; }
+  /***************************
+footer mobile 
+****************************/
+  h2 {
+    font-size: 3vw; }
+  .contactBar {
+    font-size: 2vw; }
+  /***************************
+curriculum mobile 
+****************************/
+  .imagenCurriculum {
+    height: 100px;
+    font-size: 25px; }
+  .fotoPerfil {
+    content: url(../assets/img/fotoPerfilMobile.png);
+    height: 100%; }
+  .infoSobreMi {
+    font-size: 12px; }
+  /***************************
+web tablet 
+****************************/
+  .imgWebDesign {
+    height: 100px;
+    font-size: 25px; }
+  /***************************
+graphic tablet 
+****************************/
+  .imgGraphicDesign {
+    height: 100px;
+    font-size: 25px; }
+  /***************************
+contacto tablet 
+****************************/
+  .imgContacto {
+    height: 100px;
+    font-size: 25px; } }

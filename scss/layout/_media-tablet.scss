@@ -43,8 +43,7 @@ curriculum tablet
 ****************************/
 
 .imagenCurriculum {
-    height: 130px;
-    font-size: 35px;
+    @include img-tablet;
 }
 
 .fotoPerfil {
@@ -81,6 +80,4 @@ graphic tablet
 }
 
 }
-
-
 

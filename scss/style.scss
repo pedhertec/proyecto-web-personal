@@ -3,6 +3,8 @@
 @import "./utilities/functions";
 @import "./utilities/mixins";
 @import "./utilities/variables";
+@import "./components/bootstrap";
+@import "./components/buttons";
 @import "./layout/forms";
 @import "./layout/header";
 @import "./layout/main-index";
@@ -11,7 +13,6 @@
 @import "./layout/main-web";
 @import "./layout/main-contacto";
 @import "./layout/footer";
-@import "./layout/media-mobile";
 @import "./layout/media-tablet";
-@import "./components/bootstrap";
-@import "./components/buttons";
+@import "./layout/media-mobile";
+

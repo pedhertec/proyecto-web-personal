@@ -7,3 +7,21 @@
     height: 130px;
     font-size: 35px;
 }
+
+@mixin prop-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin prop-titles {
+    color: $color-titles;
+    width: $width-titles;   
+    height: $height-titles;
+    font-size: $font-size-titles;    
+}
+
+@mixin prop-display ($display, $justify) {
+    display: $display;
+    justify-content: $justify;
+}

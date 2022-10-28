@@ -1,6 +1,7 @@
 main {
     font-family: 'Roboto Mono', monospace;
     min-height: calc(100vh - (92px + 74px));
+    background-color: $background-main;
 }
 
 .imagenMacbook {
@@ -13,7 +14,7 @@ main {
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: $color-titles;
     -webkit-animation: swingimagenMacbook 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
     animation: swingimagenMacbook 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
 }

@@ -3,10 +3,7 @@
     background-image: url(../assets/img/bannerContacto.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    height: 178px;
-    font-size: 50px;
-    color: white;
+    @include prop-titles;
     align-items: center;
     -webkit-animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -59,14 +56,4 @@ input:focus::placeholder {
 .btn {
     width: 40%;
     margin-top: 10px;
-}
-
-@media screen and (max-width: 1400px) {
-    h2 {
-        font-size: 1.8vw;
-    }
-
-    .contactBar {
-        font-size: 1.5 vw;
-    }
 }

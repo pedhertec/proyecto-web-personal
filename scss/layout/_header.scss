@@ -1,7 +1,6 @@
 header {
     background-color: $background-header;
-    display: flex;
-    justify-content: space-between;
+    @include prop-display (flex, space-between);
     align-items: center;
 }
 
@@ -11,8 +10,7 @@ header {
 }
 
 .navBar {
-    display: flex;
-    justify-content: right;
+    @include prop-display (flex, right);
     margin-right: 30px;
 
     li {

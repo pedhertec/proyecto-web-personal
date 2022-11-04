@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap'); */
 /* por si quiero cambiar los fondos más adelante */
 /* por si quiero cambiar los subtitulos más adelante */
 /***********************************************
@@ -434,7 +434,7 @@ index tablet
 footer tablet 
 ****************************/
   h2 {
-    font-size: 2.8vw; }
+    font-size: 3.2vw; }
   .contactBar {
     font-size: 1.5vw; }
   /***************************

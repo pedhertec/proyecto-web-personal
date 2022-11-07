@@ -25,3 +25,9 @@
     display: $display;
     justify-content: $justify;
 }
+
+@mixin prop-background-proyect {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

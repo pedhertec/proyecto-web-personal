@@ -34,22 +34,18 @@ Contenedor de proyectos diseño gráfico
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../assets/img/BackgroundAmaranta.jpg);
     background-color: lightblue;
     grid-column: 2/4;
     grid-row: 2/4; }
   .contenedorProyectosGraphic .box2 {
-    background-image: url(../assets/img/Cat.jpg);
     background-color: lightcoral;
     grid-column: 5/7;
     grid-row: 2/4; }
   .contenedorProyectosGraphic .box3 {
-    background-image: url(../assets/img/Librotipo.JPG);
     background-color: lightsalmon;
     grid-column: 2/4;
     grid-row: 5/7; }
   .contenedorProyectosGraphic .box4 {
-    background-image: url(../assets/img/Tipografia.JPG);
     background-color: lightgoldenrodyellow;
     grid-column: 5/7;
     grid-row: 5/7; }

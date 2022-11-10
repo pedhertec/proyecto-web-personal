@@ -22,7 +22,10 @@ Contenedor de proyectos diseño gráfico
 
 .box{
     border-radius: 10px;
+    overflow: hidden;
+    border-style: solid;
 }
+
 .box:hover{
     transform: scale(1.1);
     box-shadow: 1px 5px 20px black;
@@ -175,6 +178,8 @@ Contenedor de proyectos diseño web
 
 .box{
     border-radius: 10px;
+    overflow: hidden;
+    border-style: solid;
 }
 .box:hover{
     transform: scale(1.1);
